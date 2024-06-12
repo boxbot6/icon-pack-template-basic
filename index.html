@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+	<title>Website Template | Icon Pack Template Basic - Home | Html | Css | Home Page</title>
+	<meta name="description" content="">
+   	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta charset="utf-8" />
+	<meta http-equiv="Permissions-Policy" content="interest-cohort=()">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+
+<body>
+<div class="box">
+
+	<div class="row header">
+
+		<div class="header-banner">
+
+
+			<div class="logo-button">
+				<a href="images/logo.png" download style="color: lightgray; text-decoration:none">
+				<img style="vertical-align:top" src="images/logo.png" alt="logo image" height="60px" >
+				</a>
+			</div>
+
+
+			<nav class="header-menu">
+				<ul class="tab-container">
+
+
+					<!-- Code for expanding search box below (google is used as a default - add homepage link to search your own site) -->
+					<li class="search-wrapper">
+						<form action="https://www.google.com/search" class="search">
+							<input class="search" type="search" name="q" placeholder="Search Google" required />
+							<button type="submit"><i class="search-icon-white"></i></button>
+							<!-- or you could use: <img src="images/search-icon-gray.png" height="18px"/> instead of css base64 <i> -->
+						</form>
+					</li>
+				</ul>
+			</nav>
+
+
+			<div class="header-text">
+				<h1>icon-pack-template-basic</h1>
+			</div>
+
+		</div>
+
+	</div><!-- row header closing -->
+
+
+	<div class="row content" style="font-family: Segoe UI, Noto Sans, Helvetica, Arial, sans-serif, garamond, serif; font-size: large; margin-left: 40px; margin-right: 40px;">
+
+		<br />
+
+		<p>A free basic icon pack template for android - use it with Andoid Studio to create or edit an icon pack (an icon pack is wrapped inside a basic app (.apk)).</p>
+			
+		<br />
+
+
+		<div class="center">
+			<content-image>
+			<a href="images/icon-pack-template-basic-sample-1.png">
+			<img src="images/icon-pack-template-basic-sample-1.png" width="100%" />
+			</a>
+			</content-image>
+		</div>
+
+
+		<br />
+
+
+		<div class="grid-container-2-1">
+
+			<content-image-spaced>
+			<a href="images/icon-pack-template-basic-sample-3.png">
+			<img src="images/icon-pack-template-basic-sample-3.png" width="100%" />
+			</a>
+			</content-image-spaced>
+
+
+			<content-image-spaced>
+			<a href="images/icon-pack-template-basic-sample-4.png">
+			<img src="images/icon-pack-template-basic-sample-4.png" height="500" />
+			</a>
+			</content-image-spaced>
+
+		</div>
+
+
+		<br />
+
+
+		<h2>Files available to download:</h2>
+
+		<ul>
+			<li>Here's the finished .apk made using this template if you just want to try it first (icon-pack-template-basic-demo.zip):</li>
+		</ul>
+
+		<div class="download-button"">
+			<a href="downloads/icon-pack-template-basic-demo.zip" download style="color:white; text-decoration:none">
+			<span>Download &nbsp;&nbsp;&nbsp;&nbsp;</span>
+			<img style="vertical-align:middle" src="images/download-icon-1.png" alt="image" height="25">
+			</a>
+		</div>
+			
+		<br />
+		<br />
+
+		<ul>
+			<li>Here are all the Android Studio files inside a project folder (icon-pack-template-basic.zip) - unzip the download and then drag the whole folder onto your Android Studio desktop icon to open it (or select the folder from 'File > Open' menu within an open instance of Android Studio):</li>
+		</ul>
+		
+		<div class="download-button"">
+			<a href="downloads/icon-pack-template-basic.zip" download style="color:white; text-decoration:none">
+			<span>Download &nbsp;&nbsp;&nbsp;&nbsp;</span>
+			<img style="vertical-align:middle" src="images/download-icon-1.png" alt="image" height="25">
+			</a>
+		</div>
+
+		<br />
+		<br />
+		<br />
+		<br />
+
+
+		<h2>To use:</h2>
+
+		<p>Open the template in Android Studio, add your new icons in the drawable folder, update the details of the new icons to the drawable.xml and icon_pack.xml files, (optionally also edit the appfilter.xml) then build your icon pack (.apk).</p>
+
+
+		<br />
+		<br />
+
+		
+		<h2>A longer explanation for how to use the template:</h2>
+
+		<ul>
+			<li>If you haven't already got Android Studio, install it on your computer - Link here: <a href="https://developer.android.com/studio?gclid=EAIaIQobChMIh6-kh9rsgwMVjZNQBh3tCQlSEAAYASAAEgJ0AfD_BwE&gclsrc=aw.ds/">developer.android.com</a> (I used the Hedgehog version 2023.1.1 Patch 2 to create the template).</li>
+			<li>Download the project files 'app-template-basic-icon-pack.zip' to your computer, unzip it and then drag the whole folder onto your Android Studio desktop icon to open it (or select the folder from 'File > Open' menu within an open instance of Android Studio).</li>	
+			<li>For first-timers probably stick to the project name as it is because changing the name is a bit convoluted depending on which version you are using but if you want to change it there is a helpful guide <a href="https://stackoverflow.com/questions/18276872/change-project-name-on-android-studio/">here.</a></li>
+			<li>After everything updates, imports, synchronises and opens (this may take quite a few minutes), next try Build > BuildBundle(s)/APK(s) > Build APK(s) from the top menu to build the app from the project files.</li>
+			<li><b>If Android Studio builds the template ok without any problems move on to 'Adding your icons and personalising your new app' in next section.</b></li>
+			<li>If it doesn't work - initially you can check if Android Studio is using the correct JavaVersion and also check the location of the Gradle JDK for your particular installation of Android studio is correct and accessable (use Settings > Build, Execution, Deployment > Build Tools > Gradle).</li>
+			<li>Just a note about Android Studio - please be aware that it is very large and very slow and is hardly ever compatable with any older projects or examples that you are likely to download and try to use so you may have to persevere for a while to get anything to work - usually by repeatedly attempting to build the apk and then having to correct any errors listed in the build log (fix these errors by searching for answers on 'Stack Overflow' etc. or by updating the various Android Studio program elements and trying again).</li>
+			<li>If you feel confident you can either rename the project (look for online tutorial if you are not sure how to do this) or start a new project using the built-in template 'Empty Views Activity' with the new name that you want and then copy all the files across from the downloaded template to this new project (this is not straightforward and takes a bit of time but it is a good place to learn the layout of all the different types of files inside an an app and where they are located - in general systematically copy one file at a time, moving the body of the code for each file from the downloaded template to the corresponding place in the new project (keeping the new projects package id's and label etc.) and then copy across and edit appropriately all the other associated references such as strings, values, drawables, menus, themes, gradle files etc. into the new project.</li>
+		<br />
+
+			<a href="images/icon-pack-template-basic-sample-layout-1.png">
+			<img src="images/icon-pack-template-basic-sample-layout-1.png" alt="icon-pack-template-basic-sample-layout-1.png" width="50%">
+			</a>	
+
+		<br />
+		<br />
+				
+			<li>Check the list of imports at the top of each kotlin/java file (you can delete any greyed-out ones that are unused and add any missing imports to this list by right-clicking any red highlighted items in the body of the code and select 'add import' (and then generally choose the top one from list of imports that appears).</li>
+			<li>When you eventually have a project that Android Studio builds without any errors you can then use the emulator to test it or you can build the actual app to test on your device by selecting: Build > BuildBundle(s)/APK(s) > Build APK(s), and wait for it to build the .apk (this may take a long time - please wait for the progress bar to complete).</li>
+
+			<li>After it has completed building the apk a dialog box 'Build APK(s)' appears in the bottom right of Android Studio - click on 'locate', then 'debug', then rename the 'app-debug.apk' file to 'test.apk' or whatever other name you want for the .apk file, then copy the .apk to your device to test it there (don't forget to allow apps from unknown sources).</li>
+			<li>Also bear in mind what version of Android you are using and is it compatible?</li>
+			<li>It may look or work differently on your device than it did in the emulator so you may have to adjust the code for any inconsistencies that become obvious when you test it on your device.</li>
+			<li>You can now move on to personalising your app.</li>
+
+		</ul>
+
+
+		<br />
+		<br />
+
+
+		<h2>Adding your icons and personalising your new app:</h2>
+
+
+			<p>You can now personalise the template by adding your icons and editing other elements until you are satisfied with the results and then you can build your .apk again - Here's how:</p>
+
+		<ol>
+			<li>When using this template all your icons should be stored in the folder: <b>app</b> > res > drawable, look in this folder and you will see where the sample demo icons are stored and put your new icons here in the same place using the same format, you can delete the sample icons but take care to only delete icons that are actually part of the icon pack and not system icons which are also stored in that folder.</li>
+			<li>Ammend the resources list in the file: <b>app</b> > res > xml > drawable.xml to include all the names of the new icons that you are adding. This list is used by Nova Launcher and other Launchers to find and install the icons.</li>
+
+		<br />
+
+			<a href="images/icon-pack-template-basic-sample-layout-3.png">			
+			<img src="images/icon-pack-template-basic-sample-layout-3.png" alt="icon-pack-template-basic-sample-layout-3.png" width="70%">
+			</a>	
+
+		<br />
+		<br />
+
+
+			<li>In the file: <b>app</b> > res > values > icon_pack.xml (which is used to list the names and group the icons) update these lists to reflect the names and groups of icons you want your pack to contain. Make sure to include both the two basic groups "all" and "icon_pack" which will usually be identical and should both contain all of the icons in your pack. <b>Note:</b> Both the main "all" and "icon_pack" groups should contain an identical number and listing order of icons that the <b>app</b> > res > xml > drawable.xml file does because they need to correlate with each other to work! (however the icon_pack.xml and drawable.xml items can have different names but must always be in the same order of equally sized lists to match up).</p>
+			<p>The string-array "icon_filters" at the top of the icon_pack.xml file contains the references to the different groups, each of which has their own string-array below containing the icons in each group - update these using the names of your own icons in the same format as the examples.</li>
+			<p>You can also add your own extra groups such as 'Games' or 'System' etc. - just add a new string-array for each new group containing just the names of the icons from your pack that you want in those groups - and then add the names of these new groups to the "icon_filters" string-array to reference the groups.</p>
+			
+		<br />
+
+			<a href="images/icon-pack-template-basic-sample-layout-4.png">			
+			<img src="images/icon-pack-template-basic-sample-layout-4.png" alt="icon-pack-template-basic-sample-layout-4.png" width="70%">
+			</a>
+
+		<br />
+		<br />
+
+
+			<li>In the file: <b>app</b> > res > values > appfilter.xml (it’s in here that you tell the launcher which images (icons) from your drawable folder belong to which apps) for simplicity you are probably best advised to leave this file completely as it is and only look through it if you want to see the default names to use when naming your icons or checking to see if your added icons have the same names as those already used for other activities, but if you need to and understand how to do it you can add any special information regarding your new icons here.</li>
+
+		<br />
+
+			<a href="images/icon-pack-template-basic-sample-layout-5.png">				
+			<img src="images/icon-pack-template-basic-sample-layout-5.png" alt="icon-pack-template-basic-sample-layout-5.png" width="70%">
+			</a>
+
+		<br />
+		<br />
+
+
+			<li>Build your app again by selecting: Build > BuildBundle(s)/APK(s) > Build APK(s)</li>
+
+		</ol>
+
+		<br />
+		<br />
+
+
+		<h2>Some general notes on editing your new app in Android Studio:</h2>
+
+		<ul>
+			
+			<li>If you are renaming anything in Android Studio right-click it and select Refactor > Rename, to change all the instances where it is used and linked throughout the project to ensure continuity.</li>
+			<li>Use right-click 'Find Usages' to check what things are connected to and use 'Delete > Safe Delete' before removing things to make sure they are not being used and it is ok to get rid them.</li>
+			<li>The best way to start modifying the code is to add snippets of code that you have already tested elsewhere in other projects and you know already work with your version of Android studio. Or otherwise make small changes and keep checking if it still works - most of the time you can press Edit > Undo to go back to what was working.</li>
+
+			<li>In the AndroidManifest.xml you can change the icon that your android app shows by adding a 512x512 pixel icon in .png format to the <b>app</b> > res > drawable folder and updating android:icon="@drawable/name_of_the_icon_you_added_to_drawable_folder_here". Alternatively you can more correctly right-click on the res folder and select New > Image Asset and use the dialog to make a proper full set of icons for the app - use android:icon="@mipmap/ic_launcher" to show these icons.</li>
+			<li>Also in the AndroidManifest.xml you can change the name that shows for the app by changing android:label="app_name_you_want_to_show_here".</li>
+			<li>Put any images you want to use in your project into the drawable folder and link to them by using "@drawable/name_of_the_image_you_added_to_drawable_folder_here".</li>
+			<li>As a general rule in Android Studio to add text to layouts try to use reference strings like "@string/text_reference_id_here" rather than putting your text directly in the layout code (you put the actual text you want as a string in res > values > strings.xml - example: &lt;string name="text_reference_id_here">The text you want to reference here&lt;/string> and link to that with "@string/text_reference_id_here"). One reason for using values is to make translating all the text in an app easier.</li>
+			<li>For first-timers probably stick to the project name as it is because changing the name is a bit convoluted depending on which version you are using but if you want to change it there is a helpful guide <a href="https://stackoverflow.com/questions/18276872/change-project-name-on-android-studio/">here</a> but it may have changed for newer versions</li>
+			
+
+		</ul>
+
+		<br />
+		<br />
+
+
+		<h2>A few things to note about the code:</h2>
+
+		<ul>
+			<li>I have converted the code to kotlin for this project so it no longer uses java.</li>
+			<li>The app has a min SDK/API level of 16 (Android 4.1 Jelly Bean).</li>
+			<li>The app will not be signed so you will have to do that seperately if you wish to distribute it commercially (Look up: How do I sign and publish an Android app?)
+</li>
+			<li>For help on most things regarding Android Studio go to <a href="https://stackoverflow.com/">stackoverflow.com</a> and dig through the answers and examples there.</li>
+			<li>This app does not contain an inbuilt installer so you will need to use a third party launcher like Nova Launcher or Apex Launcher to install the whole icon pack at once (Pics of Nova Launcher icon pack install and icon edit examples below). You can however select individual icons by selecting (pressing them) in the icon pack and downloading them to your device, then you can individually use them from your download folder to replace the individual icons that you want - press and hold an icon and use edit on the UI's of many newer devices to pick a new image/icon and swop out the standard ones.</li>
+
+		</ul>
+
+
+		<br />
+
+		
+		<h4>Press:</h4>
+
+		
+		<div>
+			<a href="images/nova-settings-icon.png">
+			<img src="images/nova-settings-icon.png" width="100px" />
+			</a>
+		</div>
+
+
+		<br />
+
+
+		<h4>To load the whole icon pack:</h4>
+
+
+		<div class="grid-container-4-3-2-1">
+
+			<content-image-spaced>
+			<a href="images/icon-pack-template-basic-sample-6a.png">
+			<img src="images/icon-pack-template-basic-sample-6a.png" width="100%" />
+			</a>
+			</content-image-spaced>
+
+
+			<content-image-spaced>
+			<a href="images/icon-pack-template-basic-sample-6b.png">
+			<img src="images/icon-pack-template-basic-sample-6b.png" width="100%" />
+			</a>
+			</content-image-spaced>
+
+
+			<content-image-spaced>
+			<a href="images/icon-pack-template-basic-sample-6c.png">
+			<img src="images/icon-pack-template-basic-sample-6c.png" width="100%" />
+			</a>
+			</content-image-spaced>
+
+
+			<content-image-spaced>
+			<a href="images/icon-pack-template-basic-sample-6d.png">
+			<img src="images/icon-pack-template-basic-sample-6d.png" width="100%" />
+			</a>
+			</content-image-spaced>
+
+		</div>
+
+		
+		<br />
+
+		
+		<h4>To edit the icons individually:</h4>
+
+
+		<div class="grid-container-4-3-2-1">
+
+			<content-image-spaced>
+			<a href="images/icon-pack-template-basic-sample-6e.png">
+			<img src="images/icon-pack-template-basic-sample-6e.png" width="100%" />
+			</a>
+			</content-image-spaced>
+
+
+			<content-image-spaced>
+			<a href="images/icon-pack-template-basic-sample-6f.png">
+			<img src="images/icon-pack-template-basic-sample-6f.png" width="100%" />
+			</a>
+			</content-image-spaced>
+
+
+			<content-image-spaced>
+			<a href="images/icon-pack-template-basic-sample-6g.png">
+			<img src="images/icon-pack-template-basic-sample-6g.png" width="100%" />
+			</a>
+			</content-image-spaced>
+
+
+			<content-image-spaced>
+			<a href="images/icon-pack-template-basic-sample-6h.png">
+			<img src="images/icon-pack-template-basic-sample-6h.png" width="100%" />
+			</a>
+			</content-image-spaced>
+
+		</div>
+
+
+		<br />
+
+
+		<p>Click the link below to visit the github repository that is used to generate this site:</p>
+
+		<p><a href="https://github.com/boxbot6/icon-pack-template-basic">https://github.com/boxbot6/icon-pack-template-basic</a></p>
+
+		<p>Click the link below to visit the github repository for a full multi-page version of this icon pack template:</p>
+
+		<p><a href="https://github.com/boxbot6/icon-pack-template-full">https://github.com/boxbot6/icon-pack-template-full</a></p>
+
+		<br />
+
+
+	</div><!-- row content closing -->
+
+	
+	<div class="row footer">
+
+       		<div class="footer" style="background-color:#33475b">
+			<p>Copyright © none for this page. No Rights Reserved.</p>
+		</div>
+
+	</div><!-- row footer closing -->
+
+
+</div><!-- box closing -->
+</body>
+</html>
